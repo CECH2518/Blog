@@ -1,0 +1,101 @@
+body{
+	front-family:Arial,Tahoma;
+	margin: 0;
+	padding: 10;
+	line-height: 1.6;
+	color: #333;
+	background-color: black;
+}
+
+header{
+	background-image: url('fondo/fondo.jpg');
+  	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+	
+	font-size: 50px;
+	padding: 10px;
+	min-height: 70px;
+	border-bottom: #0779e4 3px solid;
+
+}
+
+header h1{
+align-content: center;
+width: inherit;
+font: 100px Blazed;
+text-align: center;
+text-size-adjust: inherit;
+text-transform: uppercase;
+}
+
+nav article{
+
+	color: white;
+	padding: 10px;
+	text-size-adjust: inherit;
+	text-shadow:
+		0 0 5px rgba(0,178,255,1)
+
+
+}
+
+
+nav ul{
+	background: #444;
+	margin-top: -10px;
+	list-style: none;
+	padding: 10px;
+	text-align: center;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	color: white;
+	padding: 15px 20px;
+	display: inline-block;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	background: #07079e4 ;
+}
+
+main{
+	padding: 15px;
+
+}
+main >article{
+	background: darkviolet;
+	color: white;
+	border-radius: 20px;
+	padding:20px;
+	margin-bottom: 20px;
+	text-shadow:
+		0 0 5px #FFF
+}
+footer{
+	background: dimgray;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+
+.neon {
+	color: white;
+	text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
